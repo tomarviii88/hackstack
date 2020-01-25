@@ -443,3 +443,74 @@ body {
   width: 4%;
   height: 4%;
 }
+
+.prize {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+}
+
+.inner {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.prize > p {
+  font-family: OCR A Extended;
+  font-size: 3vmax;
+  color: #ffffff;
+  position: relative;
+  left: 14%;
+  width: 30%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.prize > .inner > .text {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  position: relative;
+  left: 14%;
+  width: 30%;
+  font-size: 2vmax;
+}
+
+.prize > .inner > .img {
+  width: 50%;
+  height: 50%;
+  margin-left: 20vmax;
+}
+.prize > .inner > .img > img {
+  width: 100%;
+  height: 100%;
+}
+
+.prize > .inner > .text > .category > h4 {
+  font-family: OCR A Extended;
+
+  border-radius: 25px;
+  height: 30px;
+  padding: 10px;
+  text-align: right;
+}
+
+.prize > .inner > .text > .category > .k12 {
+  background: linear-gradient(180deg, #fe94cd 0%, rgba(0, 0, 0, 0) 100%);
+}
+.prize > .inner > .text > .category > .k15 {
+  background: linear-gradient(180deg, #fe94cd 0%, rgba(0, 0, 0, 0) 100%);
+  position: relative;
+  top: -4vmax;
+}
+
+.prize > .inner > .text > .category > .k18 {
+  background: linear-gradient(
+    180deg,
+    #28fe71 0%,
+    rgba(128, 255, 171, 0.375) 62.5%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  position: relative;
+  top: -2vmax;
+}

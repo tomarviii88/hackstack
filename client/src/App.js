@@ -7,6 +7,7 @@ import Timeline from './components/Timeline';
 import Tracks from './components/Tracks';
 import Sponsors from './components/Sponsors';
 import Faqs from './components/Faqs';
+import Prize from './components/Prize';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Stats />
         <Timeline />
         <Tracks />
-
+        <Prize />
         <Sponsors />
         <div className='underline-3'></div>
         <Faqs />
