@@ -20,9 +20,9 @@ export const Prize = () => {
             </span>
           </p>
           <div className='category'>
-            <h4 className='k12'>12K</h4>
-            <h4 className='k18'>18K</h4>
-            <h4 className='k15'>15K</h4>
+            <p className='k12'>12K</p>
+            <p className='k18'>18K</p>
+            <p className='k15'>15K</p>
           </div>
         </div>
         <div className='img'>

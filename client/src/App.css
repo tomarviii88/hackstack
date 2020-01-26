@@ -486,7 +486,7 @@ body {
   height: 100%;
 }
 
-.prize > .inner > .text > .category > h4 {
+.prize > .inner > .text > .category > p {
   font-family: OCR A Extended;
 
   border-radius: 10px;
@@ -496,19 +496,19 @@ body {
 }
 
 .prize > .inner > .text > .category > .k12 {
-  background: linear-gradient(180deg, #fe94cd 0%, rgba(0, 0, 0, 0) 100%);
-  width: 50%;
+  background: linear-gradient(to left, #fe94cd 0%, rgba(0, 0, 0, 0) 100%);
+  width: 30%;
 }
 .prize > .inner > .text > .category > .k15 {
-  background: linear-gradient(180deg, #fe94cd 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(to left, #fe94cd 0%, rgba(0, 0, 0, 0) 100%);
   position: relative;
   top: -4vmax;
-  width: 70%;
+  width: 40%;
 }
 
 .prize > .inner > .text > .category > .k18 {
   background: linear-gradient(
-    180deg,
+    to left,
     #28fe71 0%,
     rgba(128, 255, 171, 0.375) 62.5%,
     rgba(0, 0, 0, 0) 100%
@@ -516,6 +516,7 @@ body {
   border-radius: 10px;
   position: relative;
   top: -2vmax;
+  width: 50%;
 }
 
 .footer {
