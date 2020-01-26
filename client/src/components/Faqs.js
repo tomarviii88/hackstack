@@ -48,7 +48,7 @@ const Faqs = () => {
           </ul>
           <br />
           <br />
-          <li className='ques'>4. What should I not bring?</li>
+          <li className='ques'>5. What should I not bring?</li>
           <ul>
             <li className='ans'>
               Weapons of any kind, drugs, cigarettes, lighters, matchsticks or
@@ -60,7 +60,7 @@ const Faqs = () => {
           <br />
           <br />
           <li className='ques'>
-            4. How do teams get shortlisted for the on-site round?
+            6. How do teams get shortlisted for the on-site round?
           </li>
           <ul>
             <li className='ans'>
@@ -71,13 +71,13 @@ const Faqs = () => {
           </ul>
           <br />
           <br />
-          <li className='ques'>4. What should the team size be?</li>
+          <li className='ques'>7. What should the team size be?</li>
           <ul>
             <li className='ans'>A team can consist of 2-3 members.</li>
           </ul>
           <br />
           <br />
-          <li className='ques'>4. Can we build anything we wish to?</li>
+          <li className='ques'>8. Can we build anything we wish to?</li>
           <ul>
             <li className='ans'>
               We will be releasing a wide set of themes a few days before the
@@ -89,7 +89,7 @@ const Faqs = () => {
           </ul>
           <br />
           <br />
-          <li className='ques'>4. Who can attend this Hackathon?</li>
+          <li className='ques'>9. Who can attend this Hackathon?</li>
           <ul>
             <li className='ans'>
               Anyone with a knack for programming is more than welcome to apply.
@@ -98,7 +98,7 @@ const Faqs = () => {
           <br />
           <br />
           <li className='ques'>
-            4. What will I get from attending this Hackathon?
+            10. What will I get from attending this Hackathon?
           </li>
           <ul>
             <li className='ans'>
