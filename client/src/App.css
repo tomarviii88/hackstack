@@ -489,7 +489,7 @@ body {
 .prize > .inner > .text > .category > h4 {
   font-family: OCR A Extended;
 
-  border-radius: 25px;
+  border-radius: 10px;
   height: 30px;
   padding: 10px;
   text-align: right;
@@ -497,11 +497,13 @@ body {
 
 .prize > .inner > .text > .category > .k12 {
   background: linear-gradient(180deg, #fe94cd 0%, rgba(0, 0, 0, 0) 100%);
+  width: 50%;
 }
 .prize > .inner > .text > .category > .k15 {
   background: linear-gradient(180deg, #fe94cd 0%, rgba(0, 0, 0, 0) 100%);
   position: relative;
   top: -4vmax;
+  width: 70%;
 }
 
 .prize > .inner > .text > .category > .k18 {
@@ -511,6 +513,76 @@ body {
     rgba(128, 255, 171, 0.375) 62.5%,
     rgba(0, 0, 0, 0) 100%
   );
+  border-radius: 10px;
   position: relative;
   top: -2vmax;
+}
+
+.footer {
+  background-color: #000000;
+}
+
+.footer > .display {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4vmax;
+}
+
+.footer > p {
+  font-family: OCR A Extended;
+  font-size: 3vmax;
+  color: #ffffff;
+  position: relative;
+  left: 14%;
+  width: 30%;
+}
+
+.footer > .display > .box {
+  border-radius: 3vmax;
+  width: 3vmax;
+  height: 3vmax;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  align-items: center;
+}
+
+.footer > .display > .box > a > .social {
+  width: 100%;
+  height: 100%;
+}
+
+.footer > .maps-contact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.footer > .maps-contact > .map {
+  margin-left: 10vmax;
+  margin-right: 10vmax;
+  width: 30vmax;
+}
+
+.footer > .maps-contact > .map > iframe {
+  border-radius: 10px;
+}
+
+.footer > .maps-contact > .contact {
+  margin-left: 10vmax;
+  margin-top: 1vmax;
+}
+
+.footer > .maps-contact > .underline {
+  background-color: #ffffff;
+  height: 10vmax;
+  width: 1px;
+  transform: rotate(90deg);
+}
+
+.footer > .maps-contact > .contact {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
 }

@@ -31,7 +31,7 @@ const Heading = () => {
       <p className='v1'>V 1.0</p>
       <p className='date'>10th-11th February, 2020</p>
       <button type='button' className='register'>
-        REGISTER NOW
+        REGISTERATIONS OPEN SOON{' '}
       </button>
     </div>
   );

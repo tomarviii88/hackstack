@@ -8,6 +8,7 @@ import Tracks from './components/Tracks';
 import Sponsors from './components/Sponsors';
 import Faqs from './components/Faqs';
 import Prize from './components/Prize';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,14 +16,15 @@ function App() {
       <div className='landing'>
         <Heading />
         <div className='underline-3'></div>
-        <Stats />
+        {/*<Stats />*/}
         <Timeline />
         <Tracks />
         <Prize />
         <Sponsors />
         <div className='underline-3'></div>
         <Faqs />
-        <div className='underline-3'></div>
+
+        <Footer />
       </div>
     </Fragment>
   );

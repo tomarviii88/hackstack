@@ -53,6 +53,9 @@ const Tracks = () => {
           </div>
           <p>AR/VR</p>
         </div>
+        <div className='tracks-box'>
+          <p>AND MANY MORE....</p>
+        </div>
       </div>
     </div>
   );
